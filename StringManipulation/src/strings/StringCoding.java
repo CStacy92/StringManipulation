@@ -26,6 +26,26 @@ public class StringCoding {
 		//Switch first 's' word with first 'y' word
 		LastLetterCount.countAndSwitch(s);
 		
+
+		//Count number of occurrences
+		Occurrences.countOccurrence();
+
+		//Vowel counter
+		Vowels.vowelCounter(s);
+		
+		//Palindrome checker
+		Palindrome.isPalindrome(s);
+		
+		//Word counter
+		Words.numWords(s);
+		
+		//Rotate String
+		RotateString.rotate(s);
+
+		//Count words ending in 's' and 'y'
+		//Switch first 's' word with first 'y' word
+		LastLetterCount.countAndSwitch(s);
+		
 		//Return unique characters
 		TraverseString.uniqueChars(s);
 
