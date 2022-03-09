@@ -18,6 +18,9 @@ public class StringCoding {
 		
 		//Word counter
 		Words.numWords(s);
+		
+		//Rotate String
+		RotateString.rotate(s);
 
 	}
 
