@@ -7,7 +7,8 @@ public class Palindrome {
 
 	public static void isPalindrome(Scanner s) {
 		System.out.println("Enter a word: ");
-		char[] word = s.nextLine().toCharArray();
+		String userWord = s.nextLine();
+		char[] word = userWord.toCharArray();
 		boolean isPalindrome = false;
 
 		Stack<Character> charStack = new Stack<Character>();
@@ -22,6 +23,12 @@ public class Palindrome {
 			} else {
 				isPalindrome = false;
 			}
+		}
+		if(isPalindrome) {
+			System.out.println(userWord + " is a palindrome!!");
+		}
+		if(isPalindrome == false) {
+			System.out.println(userWord + " is not a palindrome!!");
 		}
 		System.out.println(isPalindrome);
 
