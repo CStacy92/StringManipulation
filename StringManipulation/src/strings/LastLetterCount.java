@@ -19,7 +19,11 @@ public class LastLetterCount {
 			} else if ('y' == word.charAt(word.length() - 1)) {
 				ywords.add(word);
 			}
+			
+		int numS = swords.size();
+		int numY = ywords.size();
 		}
+    
 		if (swords.isEmpty()) {
 			System.out.println("Cannot switch words: no word ending in 's'");
 		} else if (ywords.isEmpty()) {
