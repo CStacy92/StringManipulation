@@ -30,7 +30,6 @@ public class Palindrome {
 		if(isPalindrome == false) {
 			System.out.println(userWord + " is not a palindrome!!");
 		}
-		System.out.println(isPalindrome);
 
 	}
 }
