@@ -25,6 +25,9 @@ public class StringCoding {
 		//Count words ending in 's' and 'y'
 		//Switch first 's' word with first 'y' word
 		LastLetterCount.countAndSwitch(s);
+		
+		//Return unique characters
+		TraverseString.uniqueChars(s);
 
 	}
 
