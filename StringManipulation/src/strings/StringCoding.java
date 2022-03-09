@@ -9,6 +9,9 @@ public class StringCoding {
 		
 		//Consonant counter
 		Consonants.countConsonants(s);
+		
+		//Vowel counter
+		Vowels.vowelCounter(s);
 
 	}
 
