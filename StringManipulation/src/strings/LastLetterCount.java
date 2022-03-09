@@ -23,6 +23,7 @@ public class LastLetterCount {
 		int numS = swords.size();
 		int numY = ywords.size();
 		}
+    
 		if (swords.isEmpty()) {
 			System.out.println("Cannot switch words: no word ending in 's'");
 		} else if (ywords.isEmpty()) {
