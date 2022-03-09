@@ -18,6 +18,10 @@ public class StringCoding {
 		
 		//Word counter
 		Words.numWords(s);
+		
+		//Count words ending in 's' and 'y'
+		//Switch first 's' word with first 'y' word
+		LastLetterCount.countAndSwitch(s);
 
 	}
 
